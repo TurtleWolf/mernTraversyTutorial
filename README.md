@@ -17,3 +17,7 @@ npm i -D nodemon
 ```
 npm run server
 ```
+
+```
+npm run dev
+```
