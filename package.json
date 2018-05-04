@@ -4,7 +4,7 @@
   "description": "social network",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm intall --prefix client",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
@@ -18,17 +18,13 @@
     "concurrently": "^3.5.1",
     "express": "^4.16.3",
     "gravatar": "^1.6.0",
-    "jsonwebtoken": "^8.2.1",
-    "jwt-decode": "^2.2.0",
-    "mongoose": "^5.0.14",
-    "npm": "^5.8.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "validator": "^9.4.1"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0",
     "nodemon": "^1.17.3"
   }
 }
